@@ -1,0 +1,37 @@
+POST http://localhost:5048/games
+Content-Type: application/json
+
+{
+    "title": "Hollow Knight",
+    "genreId": 1,
+    "price": 14.99,
+    "releaseDate": "2017-02-24"
+}
+
+###
+
+GET http://localhost:5048/games
+
+###
+
+PUT http://localhost:5048/games/1
+Content-Type: application/json
+
+{
+    "title": "Street Fighter IV: Champion Edition",
+    "genreId": 2,
+    "price": 39.99,
+    "releaseDate": "2009-07-18"
+}
+
+###
+
+POST http://localhost:5048/games
+Content-Type: application/json
+
+{
+    "title": "God of War: Ragnarok",
+    "genreId": 2,
+    "price": 49.99,
+    "releaseDate": "2022-11-09"
+}

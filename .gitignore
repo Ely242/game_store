@@ -1,0 +1,15 @@
+.vs/
+.vscode/
+
+**/bin/
+**/obj/
+
+*.user
+*.suo
+*.cache
+
+GameStore.Api/GameStore.db
+GameStore.Api/GameStore.db-*
+
+node_modules/
+dist/
